@@ -1,0 +1,20 @@
+{
+  "name": "video-downloader-backend",
+  "version": "1.0.0",
+  "description": "Backend for downloading videos using yt-dlp",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "youtube-dl-exec": "^2.1.8",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "vercel": "^31.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
